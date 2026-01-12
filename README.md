@@ -14,3 +14,15 @@ Un artefact de build n’est jamais modifié ; toute modification implique la pr
 Les identifiants de ressources utilisés par les tiers (ex. : captcha) doivent rester inchangés dans toutes les publications CI/CD.
 
 ## [E005. Les règles de sécurité sont enforcés par des vérifications automatiques et des erreurs bloquantes.Toute violation produit un signal exploitable, explicitement rattaché à son périmètre (build, déploiement ou exécution).](./005.md)
+
+
+# Quand et pourquoi ce travail est utile pour le projet
+
+Les points ci-dessus permettent de vérifier
+quelles garanties sont réellement assurées par le pipeline,
+et de les distinguer des hypothèses de sécurité.
+
+Sans cette distinction, il est impossible de déterminer
+si un incident relève du code, du pipeline ou du runtime.
+
+Ces artefacts rendent ces garanties explicites.
