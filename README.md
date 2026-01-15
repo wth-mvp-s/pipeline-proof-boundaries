@@ -6,13 +6,13 @@
 ---
 
 
-## [E000 — L’artefact doit être défini et clos dans le pipeline](./000.md)
+## [E001 — L’artefact doit être défini et clos dans le pipeline](./001.md)
 Le pipeline doit définir explicitement l’artefact (localisation, structure, identité)  
 et rendre explicite la frontière de clôture :  
 à partir de la fin du build, l’artefact est considéré comme immuable  
 et toute modification par le runtime est interdite.
 
-## [E001 — Artefact de build immuable par conception](./001.md)
+## [E002 — Artefact de build immuable par conception](./002.md)
 Un artefact de build n’est jamais modifié ; toute modification implique la production d’un nouvel artefact, c’est-à-dire d’une nouvelle version.
 
 
